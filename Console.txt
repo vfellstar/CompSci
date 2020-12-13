@@ -1,0 +1,643 @@
+C:\Users\vjmar\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=56878:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\vjmar\Dropbox\University\Newcastle\Newcastle Uni\Semester 1\3. CSC8012 - More Java\1. Assignment\To Submit\out\production\8012 Assignment" LibraryMain
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+b
+Displaying all the books in the library:
+Author: Arnold, Andre
+Title: Finite Transition Systems
+On loan: false
+
+
+Author: Bishop, Judith
+Title: Java Gently
+On loan: false
+
+
+Author: Hartley, Stephen J.
+Title: Concurrent Programming
+On loan: false
+
+
+Author: Reisig, Wolfgang
+Title: Petri Nets
+On loan: false
+
+
+Author: Snow, C. R.
+Title: Concurrent Programming
+On loan: false
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+u
+Displaying all the users registered to the library:
+Lastname: Brown
+Firstname: Zoe
+Number of books currently on loan: 0
+
+Lastname: Smith
+Firstname: Anna
+Number of books currently on loan: 0
+
+Lastname: Smith
+Firstname: John
+Number of books currently on loan: 0
+
+Lastname: Williams
+Firstname: John
+Number of books currently on loan: 0
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Not a name
+Their last name;
+Nope
+The user is not registered on our system and is therefore unable to loan a book.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Anna
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Not a book
+First name of the author...
+bopey
+Last name of the author...
+nopey
+The book is not a valid book on our system.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Anna
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Concurrent Programming
+First name of the author...
+C. R.
+Last name of the author...
+Snow
+The book has been issued successfully.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Anna
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Concurrent Programming
+First name of the author...
+Stephen J.
+Last name of the author...
+Hartley
+The book has been issued successfully.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Anna
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Java GentlyBishop
+First name of the author...
+Judith
+Last name of the author...
+Bishop
+The book has been issued successfully.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+b
+Displaying all the books in the library:
+Author: Arnold, Andre
+Title: Finite Transition Systems
+On loan: false
+
+
+Author: Bishop, Judith
+Title: Java Gently
+On loan: true
+Currently with: Smith, Anna
+
+Author: Hartley, Stephen J.
+Title: Concurrent Programming
+On loan: true
+Currently with: Smith, Anna
+
+Author: Reisig, Wolfgang
+Title: Petri Nets
+On loan: false
+
+
+Author: Snow, C. R.
+Title: Concurrent Programming
+On loan: true
+Currently with: Smith, Anna
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+u
+Displaying all the users registered to the library:
+Lastname: Brown
+Firstname: Zoe
+Number of books currently on loan: 0
+
+Lastname: Smith
+Firstname: Anna
+Number of books currently on loan: 3
+
+Lastname: Smith
+Firstname: John
+Number of books currently on loan: 0
+
+Lastname: Williams
+Firstname: John
+Number of books currently on loan: 0
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Zoe
+Their last name;
+Brown
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Java Gently
+First name of the author...
+Judith
+Last name of the author...
+Bishop
+The book is currently on loan.
+A reminder to return the book has been sent to the current holder.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+John
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Concurrent Programming
+First name of the author...
+C. R.
+Last name of the author...
+Snow
+The book is currently on loan.
+A reminder to return the book has been sent to the current holder.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+John
+Their last name;
+Williams
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Concurrent Programming
+First name of the author...
+Stephen J.
+Last name of the author...
+Hartley
+The book is currently on loan.
+A reminder to return the book has been sent to the current holder.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+Zoe
+Their last name;
+Brown
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Petri Nets
+First name of the author...
+Wolfgang
+Last name of the author...
+Reisig
+The book has been issued successfully.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+b
+Displaying all the books in the library:
+Author: Arnold, Andre
+Title: Finite Transition Systems
+On loan: false
+
+
+Author: Bishop, Judith
+Title: Java Gently
+On loan: true
+Currently with: Smith, Anna
+
+Author: Hartley, Stephen J.
+Title: Concurrent Programming
+On loan: true
+Currently with: Smith, Anna
+
+Author: Reisig, Wolfgang
+Title: Petri Nets
+On loan: true
+Currently with: Brown, Zoe
+
+Author: Snow, C. R.
+Title: Concurrent Programming
+On loan: true
+Currently with: Smith, Anna
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+u
+Displaying all the users registered to the library:
+Lastname: Brown
+Firstname: Zoe
+Number of books currently on loan: 1
+
+Lastname: Smith
+Firstname: Anna
+Number of books currently on loan: 3
+
+Lastname: Smith
+Firstname: John
+Number of books currently on loan: 0
+
+Lastname: Williams
+Firstname: John
+Number of books currently on loan: 0
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+John
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Java Gently
+First name of the author...
+Judith
+Last name of the author...
+Bishop
+The book is currently on loan.
+A reminder to return the book has been sent to the current holder.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+r
+Updating the stored data of a book being returned by a user:
+Please enter the following details about the user:
+Their first name:
+Not a name
+Their last name;
+nope
+This is not a registered User.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+r
+Updating the stored data of a book being returned by a user:
+Please enter the following details about the user:
+Their first name:
+John
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Not a book
+First name of the author...
+ko
+Last name of the author...
+ko
+This is not a book on our system.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+r
+Updating the stored data of a book being returned by a user:
+Please enter the following details about the user:
+Their first name:
+Anna
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Concurrent Programming
+First name of the author...
+C. R.
+Last name of the author...
+Snow
+The book has been successfully returned.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+r
+Updating the stored data of a book being returned by a user:
+Please enter the following details about the user:
+Their first name:
+Anna
+Their last name;
+Smith
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Finite Transition Systems
+First name of the author...
+Andre
+Last name of the author...
+Arnold
+This book is not on loan and therefore cannot be returned.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+r
+Updating the stored data of a book being returned by a user:
+Please enter the following details about the user:
+Their first name:
+Zoe
+Their last name;
+Brown
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Java Gently
+First name of the author...
+Judith
+Last name of the author...
+Bishop
+This person did not borrow this particular book.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+b
+Displaying all the books in the library:
+Author: Arnold, Andre
+Title: Finite Transition Systems
+On loan: false
+
+
+Author: Bishop, Judith
+Title: Java Gently
+On loan: true
+Currently with: Smith, Anna
+
+Author: Hartley, Stephen J.
+Title: Concurrent Programming
+On loan: true
+Currently with: Smith, Anna
+
+Author: Reisig, Wolfgang
+Title: Petri Nets
+On loan: true
+Currently with: Brown, Zoe
+
+Author: Snow, C. R.
+Title: Concurrent Programming
+On loan: false
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+u
+Displaying all the users registered to the library:
+Lastname: Brown
+Firstname: Zoe
+Number of books currently on loan: 1
+
+Lastname: Smith
+Firstname: Anna
+Number of books currently on loan: 2
+
+Lastname: Smith
+Firstname: John
+Number of books currently on loan: 0
+
+Lastname: Williams
+Firstname: John
+Number of books currently on loan: 0
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+i
+Please enter the following details about the user:
+Their first name:
+John
+Their last name;
+Williams
+Updating the stored data of a book to be issued to a user:
+Please enter the following:
+Title of the book:
+Concurrent Programming
+First name of the author...
+Stephen J.
+Last name of the author...
+Hartley
+The book is currently on loan.
+A reminder to return the book has been sent to the current holder.
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+                    MENU
+f - finish
+b - display all books
+u - display all users
+i - update stored data of a book issued to a user
+r - update stored data of a book return by a user
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+        Type a letter and press Enter
+f
+
+Process finished with exit code 0
