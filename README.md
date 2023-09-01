@@ -1,2 +1,2 @@
 # CompSci
-Projects from computer science masters
+Newcastle CompSci assignment submissions
